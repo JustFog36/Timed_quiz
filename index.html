@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Code Quiz</h1>
+    </header>
+    <main>
+        <section id="start-screen">
+            <h2>Welcome to the Code Quiz</h2>
+            <button id="start-button">Start</button>
+        </section>
+        <section id="quiz-screen">
+            <h2 id="question-number">Question 1</h2>
+            <div id="question-text">What is HTML?</div>
+            <ul id="answer-choices">
+                <li><button class="choice">A programming language</button></li>
+                <li><button class="choice">A markup language</button></li>
+                <li><button class="choice">A scripting language</button></li>
+                <li><button class="choice">An operating system</button></li>
+            </ul>
+        </section>
+        <section id="game-over-screen">
+            <h2>Game Over</h2>
+            <p>Your score: <span id="score">0</span></p>
+            <form id="initials-form">
+                <label for="initials">Enter your initials:</label>
+                <input type="text" id="initials" maxlength="3">
+                <button type="submit" id="save-button">Save</button>
+            </form>
+        </section>
+        <section id="high-scores">
+        </section>
+    </main>
+    <footer>
+        <p id="timerText">Timer: <span id="timer">60</span> seconds</p>
+    </footer>
+    <script src="./assets/javascript/index.js"></script>
+</body>
+</html>
