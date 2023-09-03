@@ -12,3 +12,6 @@ This Timed Quiz is a fun and educational web-based quiz game where players can t
 
 ## Screenshot of deployed page
 <img src="./Images/deployedScreenshot.PNG">
+
+
+
